@@ -1,0 +1,16 @@
+name = "chess-game"
+version = "0.1.0"
+
+[registry.metadata]
+authors = [""]
+description = "Description of chess-game"
+license = ""
+categories = [""]
+
+[build.dev]
+build = "npm run build"
+wasm_path = "./dist/chess-game.wasm"
+
+[build.prod]
+build = "npm run build"
+wasm_path = "./dist/chess-game.wasm"

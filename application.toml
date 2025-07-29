@@ -1,0 +1,10 @@
+name = "chess-game"
+component_target = 'chess-game:0.1.0'
+
+# /chess/index.html  
+# Pointed to this application.
+[[trigger]]
+type = 'http'
+path = '/chess*'
+method = 'GET'
+
